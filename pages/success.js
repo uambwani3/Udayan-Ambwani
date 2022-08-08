@@ -13,7 +13,7 @@ export async function getServerSideProps(params) {
   return { props: { order } };
 }
 
-const success = ({ order }) => {
+const Success = ({ order }) => {
   const route = useRouter();
 
   return (
@@ -54,4 +54,4 @@ const success = ({ order }) => {
   );
 };
 
-export default success;
+export default Success;
