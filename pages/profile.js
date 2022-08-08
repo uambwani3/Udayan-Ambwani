@@ -1,3 +1,4 @@
+import React from "react";
 import { useRouter } from "next/router";
 const stripe = require("stripe")(
   `${process.env.NEXT_PUBLIC_STRIPE_SECRET_KEY}`
